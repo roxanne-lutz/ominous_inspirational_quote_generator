@@ -4,10 +4,30 @@ body {
 }
 
 h1 {
-    color:purple;
+    color: purple;
 }
 
 p {
-    color:black;
-    
+    color: black;
+
+}
+
+button {
+    color: black;
+    background-color: purple;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+
+}
+
+button:hover {
+    background-color:#545454;
+}
+
+button:active {
+    background-color:white;
 }
